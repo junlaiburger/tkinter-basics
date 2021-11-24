@@ -7,22 +7,23 @@ A study guide for learning the fundamentals of the python module tkinter
 3. 
 
 # Cheat sheet
-Essential
-1. from tkinter import *      ## import module
-2. root = TK()                ## initialize tk interpreter
-3. root.mainloop()            ## run event loop window 
+|Essential code|Description|
+|:---:|:---:|
+|from tkinter import * | import module|
+|root = TK() | initialize tk interpreter|
+|root.mainloop() |run event loop window| 
 
 Widget objects
-1. a = Entry()                ## creates an input field
-2. b = Label()                ## creates a label
-3. c = Button()               ## creates a button
+1. a = Entry()           &nbsp;&nbsp;&nbsp;&nbsp;     ## creates an input field
+2. b = Label()           &nbsp;&nbsp;&nbsp;&nbsp;     ## creates a label
+3. c = Button()          &nbsp;&nbsp;&nbsp;&nbsp;     ## creates a button
 
 Object methods
-1. a.get()                    ## finds and returns a string
-2. a.insert()                 ## parameters 0, str/int
-3. a.delete()                 ## parameters 0, END
-4. a.pack()                   ## simple layout method
-5. a.grid()                   ## detailed layout method | parameters row, column, columnspan, padx, pady
+1. a.get()              &nbsp;&nbsp;&nbsp;&nbsp;      ## finds and returns a string
+2. a.insert()           &nbsp;&nbsp;&nbsp;&nbsp;      ## parameters 0, str/int
+3. a.delete()           &nbsp;&nbsp;&nbsp;&nbsp;      ## parameters 0, END
+4. a.pack()             &nbsp;&nbsp;&nbsp;&nbsp;      ## simple layout method
+5. a.grid()             &nbsp;&nbsp;&nbsp;&nbsp;      ## detailed layout method | parameters row, column, columnspan, padx, pady
 
 # Resources
 1. Tkinter course by Codemy/John Elder - https://tinyurl.com/4tfd3fjv

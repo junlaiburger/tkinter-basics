@@ -13,19 +13,19 @@ A study guide for learning the fundamentals of the python module tkinter
 |root = TK() |(first line) initialize tk interpreter|
 |root.mainloop() |(last line) run event loop window| 
 
-|Widget objects|Description|
-|:---:|:---:|
+|Widget objects|Description|Parameters|
+|:---:|:---:|:---:|
 |a = Entry() | creates an input field|
 |b = Label() | creates a label|
 |c = Button() | creates a button|
 
-|Object methods|Description|
-|:---:|:---:|
-|a.get() | finds and returns a string|
-|a.insert() | parameters (0, str/int)|
-|a.delete() | parameters (0, END)|
-|a.pack() | simple layout method, detailed method is "a.grid()"|
-|a.grid() | parameters (row, column, columnspan, padx, pady)|
+|Object methods|Description|Parameters|
+|:---:|:---:|:---:|
+|a.get() | finds and returns a string| |
+|a.insert() | inserts a value into the input field| (0, str/int)|
+|a.delete() | deletes values from the inpurt field| (0, END)|
+|a.pack() | simple layout method| (expand, fill, side)|
+|a.grid() | detailed layout method| (row, column, columnspan, padx, pady)|
 
 # Resources
 1. Tkinter course by Codemy/John Elder - https://tinyurl.com/4tfd3fjv
